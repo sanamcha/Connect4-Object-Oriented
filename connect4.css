@@ -18,6 +18,10 @@ h2{
   font-size: 4rem;
   /* text-align: center; */
 }
+h3{
+  color:tomato;
+  font-size:3.5rem;
+}
 p{
   color:rgb(240, 20, 240);
   font-size:2rem;
