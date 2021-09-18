@@ -76,8 +76,10 @@ constructor (p1, p2, height=6, width=7){
  //endgame message
    endGame(msg) {
     alert(msg);
-    const endMessage = document.getElementById('end-message');
-    endMessage.innerText = 'GAME OVER!!'; 
+    const endMessage1 = document.getElementById('end-message1');
+    const endMessage2 = document.getElementById('end-message2');
+    endMessage1.innerText = 'GAME OVER!!'; 
+    endMessage2.innerText = 'THIS GAME IS OVER. PLAY AGAIN!!!'; 
     const top = document.getElementById('col-top');
     top.removeEventListener('click', this.handleClick1);
   }
